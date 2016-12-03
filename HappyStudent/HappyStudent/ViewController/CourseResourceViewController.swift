@@ -16,7 +16,7 @@ class CourseResourceViewController: UIViewController, UITableViewDelegate, UITab
 
         // Do any additional setup after loading the view.
 		dataArray = [["courseName": "syllabus", "image": "doc"],["courseName": "Text Book: http://www.mindview.net/Books/TIJ/", "image": ""],["courseName": "Java Docs: http://docs.oracle.com/javase/specs/jls/se7/jls7.pdf", "image": "doc"]]
-
+		tableView.reloadData()
     }
 
 	//MARK: TableView delegate and datasource methods

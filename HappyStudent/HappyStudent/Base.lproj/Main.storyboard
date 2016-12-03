@@ -359,7 +359,9 @@
         <scene sceneID="2SN-5K-zBP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g13-fj-XSL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dashboard" id="Ees-1J-3q1"/>
+                    <tabBarItem key="tabBarItem" title="Dashboard" id="Ees-1J-3q1">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-10"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cly-ny-Mbu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -453,7 +455,9 @@
         <scene sceneID="Ect-bS-I2T">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PpU-RE-wIV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Announcement" id="4rh-BD-FXo"/>
+                    <tabBarItem key="tabBarItem" title="Announcement" id="4rh-BD-FXo">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-10"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Z2p-qH-lMH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -616,7 +620,9 @@
         <scene sceneID="qFo-63-jTV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aTf-Yd-Ap9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Profile" id="JZp-dp-eUJ"/>
+                    <tabBarItem key="tabBarItem" title="My Profile" id="JZp-dp-eUJ">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-10"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="s5k-Yh-uyQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

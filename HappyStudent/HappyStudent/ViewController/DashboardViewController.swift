@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import UserNotifications
+
 
 class DashboardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -17,6 +19,8 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 		dataArray = [["courseName": "C Programming", "classTiming": "Wed, 6pm-9pm", "classRoom": "Room 301"],["courseName": "Java Programming", "classTiming": "Fri, 6pm-9pm", "classRoom": "Room 303"],["courseName": "Python Programming", "classTiming": "Tue, 6pm-9pm", "classRoom": "Room 304"]]
+		scheduleLocal()
+		_ = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
     }
 
 	//MARK: TableView delegate and datasource methods
@@ -35,6 +39,25 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
 		label.translatesAutoresizingMaskIntoConstraints = false
 		headerView.addSubview(label)
 		return headerView
+	}
+	
+	func scheduleLocal() {
+		let center = UNUserNotificationCenter.current()
+		
+		let content = UNMutableNotificationContent()
+		content.title = "C Programming"
+		content.body = "Assignement Due Tonight"
+		content.categoryIdentifier = "alarm"
+		content.userInfo = ["customData": "Study Mate"]
+		content.sound = UNNotificationSound.default()
+		
+		var dateComponents = DateComponents()
+		dateComponents.hour = 17
+		dateComponents.minute = 19
+		let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+		
+		let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+		center.add(request)
 	}
 	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
