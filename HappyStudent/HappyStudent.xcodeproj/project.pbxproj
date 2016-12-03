@@ -12,6 +12,17 @@
 		AF74D80C1DF1E4790056437F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF74D80A1DF1E4790056437F /* Main.storyboard */; };
 		AF74D80E1DF1E4790056437F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF74D80D1DF1E4790056437F /* Assets.xcassets */; };
 		AF74D8111DF1E4790056437F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF74D80F1DF1E4790056437F /* LaunchScreen.storyboard */; };
+		AF74D81A1DF1E9070056437F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D8191DF1E9070056437F /* DashboardViewController.swift */; };
+		AF74D81D1DF1EFF00056437F /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D81C1DF1EFF00056437F /* DashboardTableViewCell.swift */; };
+		AF74D81F1DF204850056437F /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D81E1DF204850056437F /* AnnouncementViewController.swift */; };
+		AF74D8211DF20CBF0056437F /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D8201DF20CBF0056437F /* MyProfileViewController.swift */; };
+		AF74D8231DF20F580056437F /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D8221DF20F580056437F /* AnnouncementTableViewCell.swift */; };
+		AF74D8251DF232060056437F /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D8241DF232060056437F /* CourseViewController.swift */; };
+		AF74D8271DF236900056437F /* CourseResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D8261DF236900056437F /* CourseResourceViewController.swift */; };
+		AF74D8291DF236A10056437F /* CourseWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D8281DF236A10056437F /* CourseWorkViewController.swift */; };
+		AF74D82B1DF239580056437F /* CourseResourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D82A1DF239580056437F /* CourseResourceTableViewCell.swift */; };
+		AF74D82D1DF239680056437F /* CourseworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D82C1DF239680056437F /* CourseworkTableViewCell.swift */; };
+		AF74D82F1DF245170056437F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D82E1DF245170056437F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		AF74D80D1DF1E4790056437F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF74D8101DF1E4790056437F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF74D8121DF1E4790056437F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF74D8191DF1E9070056437F /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = ViewController/DashboardViewController.swift; sourceTree = "<group>"; };
+		AF74D81C1DF1EFF00056437F /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardTableViewCell.swift; path = CustomTableCell/DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		AF74D81E1DF204850056437F /* AnnouncementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnouncementViewController.swift; path = ViewController/AnnouncementViewController.swift; sourceTree = "<group>"; };
+		AF74D8201DF20CBF0056437F /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyProfileViewController.swift; path = ViewController/MyProfileViewController.swift; sourceTree = "<group>"; };
+		AF74D8221DF20F580056437F /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnouncementTableViewCell.swift; path = CustomTableCell/AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
+		AF74D8241DF232060056437F /* CourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseViewController.swift; path = ViewController/CourseViewController.swift; sourceTree = "<group>"; };
+		AF74D8261DF236900056437F /* CourseResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseResourceViewController.swift; path = ViewController/CourseResourceViewController.swift; sourceTree = "<group>"; };
+		AF74D8281DF236A10056437F /* CourseWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseWorkViewController.swift; path = ViewController/CourseWorkViewController.swift; sourceTree = "<group>"; };
+		AF74D82A1DF239580056437F /* CourseResourceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseResourceTableViewCell.swift; path = CustomTableCell/CourseResourceTableViewCell.swift; sourceTree = "<group>"; };
+		AF74D82C1DF239680056437F /* CourseworkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseworkTableViewCell.swift; path = CustomTableCell/CourseworkTableViewCell.swift; sourceTree = "<group>"; };
+		AF74D82E1DF245170056437F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ViewController/SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,8 @@
 		AF74D8051DF1E4790056437F /* HappyStudent */ = {
 			isa = PBXGroup;
 			children = (
+				AF74D81B1DF1EF720056437F /* CustomTableCell */,
+				AF74D8181DF1E7C10056437F /* ViewController */,
 				AF74D8061DF1E4790056437F /* AppDelegate.swift */,
 				AF74D8081DF1E4790056437F /* ViewController.swift */,
 				AF74D80A1DF1E4790056437F /* Main.storyboard */,
@@ -62,6 +86,31 @@
 				AF74D8121DF1E4790056437F /* Info.plist */,
 			);
 			path = HappyStudent;
+			sourceTree = "<group>";
+		};
+		AF74D8181DF1E7C10056437F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF74D8191DF1E9070056437F /* DashboardViewController.swift */,
+				AF74D81E1DF204850056437F /* AnnouncementViewController.swift */,
+				AF74D8201DF20CBF0056437F /* MyProfileViewController.swift */,
+				AF74D8241DF232060056437F /* CourseViewController.swift */,
+				AF74D8261DF236900056437F /* CourseResourceViewController.swift */,
+				AF74D8281DF236A10056437F /* CourseWorkViewController.swift */,
+				AF74D82E1DF245170056437F /* SettingsViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		AF74D81B1DF1EF720056437F /* CustomTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF74D81C1DF1EFF00056437F /* DashboardTableViewCell.swift */,
+				AF74D8221DF20F580056437F /* AnnouncementTableViewCell.swift */,
+				AF74D82A1DF239580056437F /* CourseResourceTableViewCell.swift */,
+				AF74D82C1DF239680056437F /* CourseworkTableViewCell.swift */,
+			);
+			name = CustomTableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +185,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF74D82B1DF239580056437F /* CourseResourceTableViewCell.swift in Sources */,
+				AF74D8211DF20CBF0056437F /* MyProfileViewController.swift in Sources */,
+				AF74D81F1DF204850056437F /* AnnouncementViewController.swift in Sources */,
+				AF74D8291DF236A10056437F /* CourseWorkViewController.swift in Sources */,
 				AF74D8091DF1E4790056437F /* ViewController.swift in Sources */,
+				AF74D81A1DF1E9070056437F /* DashboardViewController.swift in Sources */,
+				AF74D81D1DF1EFF00056437F /* DashboardTableViewCell.swift in Sources */,
+				AF74D8251DF232060056437F /* CourseViewController.swift in Sources */,
+				AF74D8231DF20F580056437F /* AnnouncementTableViewCell.swift in Sources */,
+				AF74D8271DF236900056437F /* CourseResourceViewController.swift in Sources */,
+				AF74D82F1DF245170056437F /* SettingsViewController.swift in Sources */,
 				AF74D8071DF1E4790056437F /* AppDelegate.swift in Sources */,
+				AF74D82D1DF239680056437F /* CourseworkTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
